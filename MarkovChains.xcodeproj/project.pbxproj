@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CB0B779A1739653F0013B76F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB0B77991739653F0013B76F /* main.cpp */; };
 		CB0B779C1739653F0013B76F /* MarkovChains.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB0B779B1739653F0013B76F /* MarkovChains.1 */; };
+		CB0B77A41739663E0013B76F /* MarkovChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB0B77A21739663E0013B76F /* MarkovChain.cpp */; };
+		CB0B77A71739677E0013B76F /* MarkovChainState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB0B77A51739677E0013B76F /* MarkovChainState.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		CB0B77961739653F0013B76F /* MarkovChains */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarkovChains; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0B77991739653F0013B76F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB0B779B1739653F0013B76F /* MarkovChains.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MarkovChains.1; sourceTree = "<group>"; };
+		CB0B77A21739663E0013B76F /* MarkovChain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarkovChain.cpp; sourceTree = "<group>"; };
+		CB0B77A31739663E0013B76F /* MarkovChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkovChain.h; sourceTree = "<group>"; };
+		CB0B77A51739677E0013B76F /* MarkovChainState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarkovChainState.cpp; sourceTree = "<group>"; };
+		CB0B77A61739677E0013B76F /* MarkovChainState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkovChainState.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 		CB0B77981739653F0013B76F /* MarkovChains */ = {
 			isa = PBXGroup;
 			children = (
+				CB0B77A61739677E0013B76F /* MarkovChainState.h */,
+				CB0B77A51739677E0013B76F /* MarkovChainState.cpp */,
+				CB0B77A31739663E0013B76F /* MarkovChain.h */,
+				CB0B77A21739663E0013B76F /* MarkovChain.cpp */,
 				CB0B77991739653F0013B76F /* main.cpp */,
 				CB0B779B1739653F0013B76F /* MarkovChains.1 */,
 			);
@@ -118,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB0B779A1739653F0013B76F /* main.cpp in Sources */,
+				CB0B77A41739663E0013B76F /* MarkovChain.cpp in Sources */,
+				CB0B77A71739677E0013B76F /* MarkovChainState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
